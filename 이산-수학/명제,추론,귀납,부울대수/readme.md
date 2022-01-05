@@ -108,57 +108,39 @@
 
 #### 예시
 
->$
->1^1 + 2^2 + 3^2 + \cdots + n^2 = \frac{n(n + 1)(2n + 1)}{6} \ (n \in N)
->$
->
+><img src="readme.assets/clip_image002.png" alt="img" style="zoom:150%;" />
 
 1. n = 1일 때
 
-$
-  1^2 = \frac{1\times2\times3}{6}
-$
+<img src="readme.assets/clip_image002-16413687385451.png" alt="img" style="zoom:150%;" />
 
 2. n = k일 때 성립한다고 가정
 
-$
-1^2 + 2^2 + 3^2 +\cdots+ k^2 = \frac{k(k + 1)(2k + 1)}{6}
-$
+<img src="readme.assets/clip_image002-16413687596442.png" alt="img" style="zoom:150%;" />
 
 3. n = k + 1일 때
 
-$
-1^2 + 2^2 + 3^2 +\cdots + k^2 + (k+1)^2= \frac{k(k + 1)(2k + 1)}{6} + (k + 1)^2
- = \frac{(k + 1)(k + 2)(2(k + 1) + 1}{6}
-$
+<img src="readme.assets/clip_image002-16413688697973.png" alt="img" style="zoom:150%;" />
 
  주어진 식은 n = k + 1일 때도 성립한다.
  따라서 주어진 식은 ∀ n ∈ N에 대하여 성립한다.
 
 
 
-> $
-> n!\geq2^{n-1} \ (n \in N)
-> $
->
+> <img src="readme.assets/clip_image002-16413688806684.png" alt="img" style="zoom: 150%;" />
 
 1. n = 1일 때
-   $
-   1!\geq2^{1-1}=2^0=1
-   $
-
+   
+   <img src="readme.assets/clip_image002-16413689059265.png" alt="img" style="zoom:150%;" />
+   
 2. n = k일 때 성립한다고 가정
-   $
-   k!\geq2^{k-1}
-   $
 
-3. n = k + 1일 때
-   $
-   (k+1)! = (k+1)k!\\
-   \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \geq(k+1)2^{k-1}\\
-   \ \ \ \ \ \ \ \ \ \ \ \ \ \geq2\times2^{k-1}\\
-   \ \ \ =2^k
-   $
+   <img src="readme.assets/clip_image002-16413689222876.png" alt="img" style="zoom:150%;" />
+
+1. n = k + 1일 때
+
+   <img src="readme.assets/clip_image002-16413692292467.png" alt="img" style="zoom:150%;" />
+
    주어진 식은 n = k + 1일 때도 성립한다.
    따라서 주어진 식은 ∀ n ∈ N에 대하여 성립한다.
 
